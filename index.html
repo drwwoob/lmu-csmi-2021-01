@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Compound Interest Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1> Compound Interest Calculator</h1>
+    </header>
+
+    <div class = "flex-container-leftRight">
+      <ul class="flex-container-topDown">
+        <li class="flex-item">
+          pricipal: <br/>
+          <input type = "number" id = "principalValue">
+        </li>
+        <li class="flex-item">
+          interest rate:<br/>
+          <input type = "number" id = "intRateValue">
+        </li>
+        <li class = "flex-item">
+          number of times compounded per year: <br/>
+        <input type = "number" id = "numOfCompValue">
+        </li>
+        <li class = "flex-item">
+          years:<br/>
+          <input type = "number" id = "yearsValue">
+        </li>
+      </ul>
+
+    <img src="https://cdn.wallstreetmojo.com/wp-content/uploads/2021/07/Compound-Interest.jpg.webp" alt="formula: A = P (1 + (r/n)) ^ (nt)">
+    
+  </div>
+
+  <resultOutput>
+    Amount:
+    <span id = "outCome"></span>
+  </resultOutput>
+  
+  <footer>
+    git link:
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+  
+</html>
